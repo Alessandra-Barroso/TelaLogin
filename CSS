@@ -1,0 +1,63 @@
+# TelaLogin
+Tela Login para inserção de e-mail e senha do usuário.
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(45deg,black, red);
+    height: 100vh;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;}
+.container{
+        position:absolute;
+        background-color: rgba(0,0,0,0.8);
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border-radius: 15px;
+        text-align: center;
+        height: 290px;
+        border: 2px solid orangered;
+        justify-content: space-around;
+        margin-top: 50px;
+        flex-direction: column; 
+        order: 2px;
+        padding: 60px;
+        
+/*borda adicional*/
+outline: 1px solid #cfac0e;
+/*utilizado para mover o contorno para dentro ou fora*/
+outline-offset: -9px;
+}
+.login{
+font-family: 'Open Sans';
+margin-top: 15px;
+}
+.input-login{
+display: flex;
+justify-content: space-around;
+font-family: 'Dosis';
+text-align: center;
+justify-content: center;
+flex-direction: column;
+padding: 10px;
+border-radius: 9px;
+outline: none;
+
+}
+.button button{
+    background-color: #cfac0e;
+    border-radius: 30px;
+    width: 40%;
+    border: none;
+}
+button:hover{
+    background-color: coral;
+    cursor:pointer
+}
